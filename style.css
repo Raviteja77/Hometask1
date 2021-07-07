@@ -208,4 +208,8 @@ footer {
     #hideTitle {
         display: none;
     }
+
+    #bottom-content {
+        margin-bottom: 2rem;
+    }
 }
