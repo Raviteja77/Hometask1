@@ -29,7 +29,7 @@ h6 {
     margin: 2% 4% 0 4%;
 }
 
-#allnews {
+.allnews {
     position:relative;
     top:2rem;
 }
@@ -71,7 +71,7 @@ h6 {
     background-color: rgb(78, 77, 77);
 }
 
-#line1 {
+.line1 {
     width: 80%;
 }
 
@@ -188,7 +188,7 @@ footer {
         width: 40%;
     }
 
-    #allnews {
+    .allnews {
         position:unset;
     }
 
@@ -196,7 +196,7 @@ footer {
         width: 100%;
     }
 
-    #allnews {
+    .allnews {
         margin-bottom: 1rem;
         text-align: center;
     }
