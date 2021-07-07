@@ -22,18 +22,20 @@
                     <option value="all">All</option>
                 </select>
             </div>
-            <div class="col-2">
-                <span id="allnews" style="font-size:x-large;color:#293555;"><b>ALL NEWS</b></span>
+            <div class="col-1" id = "hideTitle">
+                <h2 class="allnews" style="color:#293555;">ALL NEWS</h2>
             </div>
-            <div class="col-3">
-                <div class="caption"><b>SUBSCRIBE</b></div>
+            <div class="col-1">
+                <div class="caption" id = "subHide"><b>SUBSCRIBE</b></div>
                 <div id="appendButton">
                     <input type="email" placeholder = "Email Address" id = "email">
                     <button class = "subBtn">Subscribe</button>
                 </div>
             </div>
         </div>
-
+        <div class="showTitle">
+            <h2 class="allnews" style="color:#293555;">ALL NEWS</h2>
+        </div>
         <hr id = "line">
 
         <div class="content">
@@ -52,7 +54,7 @@
                     <button class = "readBtn">Continue Reading</button>
                 </div>
             </div>
-            <hr style="height:2px;border-width:0;color:rgb(194, 194, 194);background-color:rgb(194, 193, 193)">
+            <hr class = "line1" style="height:2px;border-width:0;color:rgb(194, 194, 194);background-color:rgb(194, 193, 193)">
             <div class="row1">
                 <img class = "box" src="https://quincymedgroup.com/wp-content/uploads/2018/02/News-Banner.png" alt="news icon">
                 <div class="row1-content">
@@ -68,8 +70,8 @@
                     <button class = "readBtn">Continue Reading</button>
                 </div>
             </div>
-            <hr style="height:2px;border-width:0;color:rgb(194, 194, 194);background-color:rgb(194, 193, 193)">
-            <div class="row1">
+            <hr class = "line1" style="height:2px;border-width:0;color:rgb(194, 194, 194);background-color:rgb(194, 193, 193)">
+            <div class="row1" id = "bottom-content">
                 <img class = "box" src="https://quincymedgroup.com/wp-content/uploads/2018/02/News-Banner.png" alt="news icon">
                 <div class="row1-content">
                     <h3 style="color: #293555;">Title Three</h3> 
