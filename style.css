@@ -31,8 +31,7 @@ h6 {
 
 #allnews {
     position:relative;
-    top:2.6rem;
-    right: 1.2rem;
+    top:2rem;
 }
 
 #dropdown {
@@ -119,6 +118,7 @@ p {
 
 .row1-content {
     margin-left: 2%;
+    margin-bottom: 1%;
 }
 
 
@@ -131,20 +131,25 @@ footer {
     background-color: #293555;
     padding: 1%;
     font-size: 12px;
-    position: relative;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }
 
 /* ###########################      Responsiveness      ####################### */
 
-/* @media screen and (min-width: 870px) {
-    body {
+@media screen and (min-width: 870px) {
+    /* body {
         background: linear-gradient(to left, #f1f1f1 25%, white 25% 75%, #f1f1f1 75%);
         margin-left: 25%;
         width: 50%;
         height: 100vh;
+    } */
+
+    .showTitle {
+        display: none;
     }
-} */
+}
 
 @media screen and (max-width: 870px) {
     .row {
@@ -189,5 +194,14 @@ footer {
 
     #line1 {
         width: 100%;
+    }
+
+    #allnews {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    #hideTitle {
+        display: none;
     }
 }
