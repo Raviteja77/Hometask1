@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    }
+
+/* #######################      Header       ########################### */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #293555;
+    padding: 1%;
+}
+
+.heading {
+    background-color: white;
+    color: #293555;
+    border: 2px solid #d38407;
+    padding: 1% 4% 1% 5%;
+}
+
+h6 {
+    margin-left: 1.2rem;
+}
+
+/* ############################      Main Content       ###################### */
+
+.section {
+    margin: 2% 4% 0 4%;
+}
+
+#allnews {
+    position:relative;
+    top:1.4rem;
+    right: 1.2rem;
+}
+
+#dropdown {
+    width:60%;
+    padding: 0.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    flex: 3.5;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 1;
+}
+
+#appendButton {
+    display: flex;
+}
+
+#email {
+    flex: 1;
+    padding: 0.5rem;
+}
+#line {
+    margin-top: 3%;
+    height: 2px;
+    border-width: 0;
+    background-color: rgb(78, 77, 77);
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+.subBtn {
+    background-color: black;
+}
+
+.readBtn {
+    margin-top: 1%;
+    padding: 1% 2% 1% 2%;
+    background-color: rgb(199, 67, 5);
+}
+
+p {
+    margin-right: 25%;
+    font-size: small;
+}
+
+.caption {
+    font-size: x-small;
+    margin: 1% 0 2% 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 {
+    display: flex;
+    margin: 3% 0 3% 0;
+}
+
+.box {
+    background-color: #bdbdbd;
+    width: 30%;
+    height: auto;
+}
+
+.row1-content {
+    margin-left: 2%;
+}
+
+
+/* ################################       Footer       ###################### */
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #293555;
+    padding: 1.6%;
+    font-size: 12px;
+}
+
+/* ###########################      Responsiveness      ####################### */
+
+@media screen and (min-width: 870px) {
+    body {
+        background: linear-gradient(to left, #f1f1f1 25%, white 25% 75%, #f1f1f1 75%);
+        margin-left: 25%;
+        width: 50%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        width:10%;
+    }
+
+    .box {
+        width: 50%;
+        height: 10vh;
+    }
+
+    body {
+        width: 100%;
+        margin:0;
+    }
+
+    .row {
+        margin: 1%;
+    }
+
+    #dropdown {
+        width: 40%;
+    }
+
+    #allnews {
+        position:unset;
+    }
+}
