@@ -80,6 +80,13 @@ button {
     color: white;
 }
 
+button:hover {
+    cursor: pointer;
+    border: 1px solid #000;
+    border-left: none;
+    background-color: #263852;
+}
+
 .subBtn {
     background-color: black;
 }
